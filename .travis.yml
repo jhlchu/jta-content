@@ -8,4 +8,4 @@ before_script:
 
 script:
  - node index.js $SPACES $CONTENT_TOKEN
-#  - firebase --non-interactive deploy --only hosting --project "$PROJECT_ID" --token "$TOKEN"
+ - firebase --non-interactive deploy --only hosting --project "$PROJECT_ID" --token "$TOKEN"
