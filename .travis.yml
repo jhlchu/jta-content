@@ -2,4 +2,4 @@ language: node_js
 node_js: 10
 
 script:
-  node index.js
+  node index.js $SPACES $CONTENT_TOKEN
