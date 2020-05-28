@@ -1,6 +1,6 @@
 'use strict';
 var request = require('request');
-const { readdirSync } = require('fs');
+const fs = require('fs');
 const path = require('path');
 //.resolve(__dirname, file)
 
