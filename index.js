@@ -26,6 +26,6 @@ request.get({
     } else {
       console.log('u gay');
       // data is already parsed as JSON:
-      console.log(data.html_url);
+      console.log(data);
     }
 });
