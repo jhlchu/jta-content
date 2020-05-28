@@ -24,6 +24,7 @@ request.get({
     } else if (res.statusCode !== 200) {
       console.log('Status:', res.statusCode);
     } else {
+      console.log('u gay');
       // data is already parsed as JSON:
       console.log(data.html_url);
     }
