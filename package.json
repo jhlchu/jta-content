@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firebase-tools": "^4.2.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  }
+}
