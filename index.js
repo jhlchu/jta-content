@@ -29,3 +29,8 @@ request.get({
       console.log(data);
     }
 });
+
+if (!fs.existsSync('/hydro')){
+    fs.mkdirSync('/hydro');
+}
+
