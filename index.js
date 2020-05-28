@@ -30,7 +30,7 @@ request.get({
     }
 });
 
-if (!fs.existsSync('/hydro')){
-    fs.mkdirSync('/hydro');
+if (!fs.existsSync('./hydro')){
+    fs.mkdirSync('./hydro');
 }
 
