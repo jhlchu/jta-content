@@ -3,6 +3,9 @@ node_js: 10
 
 before_script:
  - npm install request
+ - npm install firebase-tools -g
+
 
 script:
  - node index.js $SPACES $CONTENT_TOKEN
+#  - firebase --non-interactive deploy --only hosting --project "$PROJECT_ID" --token "$TOKEN"
