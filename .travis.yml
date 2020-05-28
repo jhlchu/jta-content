@@ -8,7 +8,7 @@ before_script:
 
 
 script:
- - firebase login --token "$TOKEN" && echo "n"
+ - firebase login --token "$TOKEN" ; echo "n"
  - node index.js $SPACES $CONTENT_TOKEN
  - firebase --non-interactive deploy --only hosting --project "$PROJECT_ID" --token "$TOKEN"
  - node push.js $PROJECT_ID ./push.js
