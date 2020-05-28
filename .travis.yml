@@ -1,5 +1,8 @@
 language: node_js
 node_js: 10
 
+before_script:
+ - npm install request
+
 script:
-  node index.js $SPACES $CONTENT_TOKEN
+ - node index.js $SPACES $CONTENT_TOKEN
