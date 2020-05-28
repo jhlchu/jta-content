@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "firebase-tools": "^4.2.0"
+    "firebase-tools": "^8.2.0"
   },
   "engines": {
     "node": ">= 8.0.0"
