@@ -8,7 +8,7 @@ before_script:
 
 
 script:
- - console.log('running jta content...')
+ - ehco "running jta content..."
  #- printf 'n' | firebase login --token "$TOKEN"
  #- node index.js $SPACES $CONTENT_TOKEN
  #- firebase --non-interactive deploy --only hosting --project "$PROJECT_ID" --token "$TOKEN"
